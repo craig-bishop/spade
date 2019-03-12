@@ -24,3 +24,4 @@ pub use self::delaunay_locate::{DelaunayTreeLocate, DelaunayWalkLocate,
                                 DelaunayLocateStructure};
 #[allow(deprecated)]
 pub use self::delaunay_locate::{TriangulationWalkLocate, RTreeDelaunayLocate};
+pub use self::delaunay_basic::BasicDelaunaySubdivision;
